@@ -49,7 +49,7 @@ namespace DesafioProjetoHospedagem.Models
             // Regra: Caso os dias reservados forem maior ou igual a 10, conceder um desconto de 10%
             // *IMPLEMENTE AQUI*
 
-            if (true)
+            if (this.DiasReservados >= 10)
             {
                 valor *= 0.9M;
             }
